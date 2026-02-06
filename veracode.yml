@@ -37,6 +37,7 @@ veracode_static_scan:
     trigger: false
     commands:
       - "Veracode Static Scan"
+      - "Veracode ALL Scans"
 
 veracode_sca_scan:
   push:
@@ -65,6 +66,7 @@ veracode_sca_scan:
     trigger: false
     commands:
       - "Veracode SCA Scan"
+      - "Veracode ALL Scans"
 
 veracode_iac_secrets_scan:
   push:
@@ -94,3 +96,4 @@ veracode_iac_secrets_scan:
     trigger: false
     commands:
       - "Veracode IAC Scan"
+      - "Veracode ALL Scans"
